@@ -1,0 +1,21 @@
+<div class = "container">
+  <h1>To-do list</h1>
+  <table class = "table table-striped">
+    <thead>
+      <th>Title</th>
+      <th>Date</th>
+      <th>Decription</th>
+      <th>Delete</th>
+    </thead>
+    <tbody *ngIf = "todoList && todoList.length > 0">
+      <tr *ngFor = "let todo of todoList">
+        <td>{{todo.title}}</td>
+        <td>{{todo.date}}</td>
+        <td>{{todo.description}}</td>
+        <td><button (click) = "removeTodo(todo.$key)">-</button></td>
+      </tr>
+    </tbody>
+    <p *ngIf = "!todoList">Nothing to do</p>
+  </table>
+  <app-add-task></app-add-task>
+</div>

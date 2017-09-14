@@ -1,0 +1,24 @@
+{
+    "users": [
+        {
+            "firstName": "Shubhankar",
+            "lastName": "Dandekar"
+        },
+        {
+            "firstName": "Tejas",
+            "lastName": "Tawate"
+        },
+        {
+            "firstName": "Pranay",
+            "lastName": "Khobragade"
+        },
+        {
+            "firstName": "Nikita",
+            "lastName": "Mhatre"
+        },
+        {
+            "firstName": "Shoeb",
+            "lastName": "Hushye"
+        }
+    ]
+}
